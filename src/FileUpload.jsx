@@ -17,7 +17,7 @@ export const FileUpload = () => {
                 <p>CLICK ON THE BUTTON OR DRAG&DROP FILES HERE</p>
             </div>
             <div className="file-upload">
-                <input type="file" name="" id="file-upload" onChange={fileChange}/>
+                <input type="file" name="" id="file-upload" accept="video/mp4" onChange={fileChange}/>
             </div>
             <div className="play-file">
                 {
