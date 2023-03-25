@@ -1,0 +1,22 @@
+.container{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1rem;
+    height: 60vh;
+    border-radius: 5px;
+}
+.header p{
+    color: gray;
+}
+input[type="file"]{
+    background-color: dodgerblue;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+}
+.play-file{
+    margin-top: 1rem;
+}
